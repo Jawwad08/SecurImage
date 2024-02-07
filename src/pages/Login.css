@@ -1,0 +1,55 @@
+.login {
+    width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #dfd7d7;
+    border-radius: 5px;
+    background-color: #9e9393;
+    transition: opacity 0.5s ease;
+  }
+  
+  .login.fade-out {
+    opacity: 0; /* Fade out the login form */
+  }
+  
+  .login h3 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .login label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .login input[type="email"],
+  .login input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .login button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #55bca9;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .login button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .login .error {
+    color: red;
+    margin-top: 10px;
+    text-align: center;
+  }
+  
